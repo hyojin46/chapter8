@@ -14,7 +14,7 @@ namespace chapter8
     {
         public _6() //생성자
         {
-            InitializeComponent();
+            InitializeComponent(); //초기화
         }
 
         private void button1_Click(object sender, EventArgs e) //OK버튼 이벤트 처리기
