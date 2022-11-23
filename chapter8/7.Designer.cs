@@ -83,7 +83,7 @@
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.textBox1);
             this.Name = "_7";
-            this.Text = "_7";
+            this.Text = "ListBoxApp";
             this.ResumeLayout(false);
             this.PerformLayout();
 
