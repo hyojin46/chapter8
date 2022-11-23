@@ -17,7 +17,7 @@ namespace chapter8
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) // <<버튼 이벤트 처리기
         {
             if (listBox1.SelectedItem != null) //리스트박스에서 선택한 경우
             {
