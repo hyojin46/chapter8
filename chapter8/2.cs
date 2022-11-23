@@ -30,7 +30,7 @@ namespace chapter8
                 label1.Text = strTemp.Remove(i, s.Length);
             }
         }
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        private void checkBox1_CheckedChanged(object sender, EventArgs e) // 체크박스 이벤트 처리기
         {
             UpdateLabel(checkBox1.Text, checkBox1.Checked);
         }
