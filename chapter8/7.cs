@@ -19,7 +19,11 @@ namespace chapter8
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            if (textBox1.Text != "") 
+            {
+                listBox1.Items.Add(textBox1.Text);
+                textBox1.Text = ""; 
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
