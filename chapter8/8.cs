@@ -26,7 +26,7 @@ namespace chapter8
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e) // >>버튼 이벤트 처리기
         {
             if (comboBox1.SelectedItem != null) // 콤보박스에서 선택한 경우
             {
