@@ -53,12 +53,13 @@
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
+            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label3.Location = new System.Drawing.Point(34, 170);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(57, 12);
+            this.label3.Size = new System.Drawing.Size(240, 32);
             this.label3.TabIndex = 2;
             this.label3.Text = "우측 하단";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             // 
             // _5
             // 
@@ -71,7 +72,6 @@
             this.Name = "_5";
             this.Text = "4";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
