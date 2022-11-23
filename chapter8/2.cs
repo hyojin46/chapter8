@@ -17,7 +17,7 @@ namespace chapter8
             InitializeComponent();
         }
         private string strTemp; // 필드
-        private void UpdateLabel(string s, bool b)
+        private void UpdateLabel(string s, bool b) //사용자 정의함수(라벨의 상태 변화)
         {
             if (b) // 체크된 경우
             {
