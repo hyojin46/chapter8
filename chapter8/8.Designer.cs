@@ -38,6 +38,11 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 12;
+            this.listBox1.Items.AddRange(new object[] {
+            "Button",
+            "CheckBox",
+            "RadioButton",
+            "Label"});
             this.listBox1.Location = new System.Drawing.Point(12, 12);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(131, 136);
@@ -64,6 +69,11 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "LinkedLabel",
+            "TextBox",
+            "ListBox",
+            "ComboBox"});
             this.comboBox1.Location = new System.Drawing.Point(260, 12);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 20);
