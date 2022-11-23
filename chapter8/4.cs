@@ -15,7 +15,7 @@ namespace chapter8
     {
         public _4() //생성자
         {
-            InitializeComponent();
+            InitializeComponent(); //초기화
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
