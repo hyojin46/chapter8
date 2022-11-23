@@ -30,7 +30,7 @@ namespace chapter8
         {
             if (comboBox1.SelectedItem != null) // 콤보박스에서 선택한 경우
             {
-                listBox1.Items.Add(comboBox1.SelectedItem);
+                listBox1.Items.Add(comboBox1.SelectedItem); // 리스트박스에 채움
                 comboBox1.Items.Remove(comboBox1.SelectedItem); 
             }
         }
