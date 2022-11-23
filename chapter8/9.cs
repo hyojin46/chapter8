@@ -20,7 +20,7 @@ namespace chapter8
         private void button1_Click(object sender, EventArgs e) //선택 버튼 이벤트 처리기
         {
             string strTemp = ""; // 메시지박스에 출력할 문자열
-            foreach (object obj in checkedListBox1.CheckedItems)
+            foreach (object obj in checkedListBox1.CheckedItems) //반복문
             {
                 strTemp += obj.ToString();
                 strTemp += ": ";      
