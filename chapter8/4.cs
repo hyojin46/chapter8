@@ -30,7 +30,7 @@ namespace chapter8
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            Process.Start("Notepad.exe", linkLabel3.Text);
         }
     }
 }
