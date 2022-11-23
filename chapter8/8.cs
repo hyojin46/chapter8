@@ -19,7 +19,7 @@ namespace chapter8
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (listBox1.SelectedItem != null)
+            if (listBox1.SelectedItem != null) //리스트박스에서 선택한 경우
             {
                 comboBox1.Items.Add(listBox1.SelectedItem);
                 listBox1.Items.Remove(listBox1.SelectedItem);
@@ -31,7 +31,8 @@ namespace chapter8
             if (comboBox1.SelectedItem != null)
             {
                 listBox1.Items.Add(comboBox1.SelectedItem);
-                comboBox1.Items.Remove(comboBox1.SelectedItem); }
+                comboBox1.Items.Remove(comboBox1.SelectedItem); 
+            }
         }
     }
 }
