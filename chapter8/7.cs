@@ -26,7 +26,7 @@ namespace chapter8
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e) //삭제버튼 이벤트 처리기
         {
             if (listBox1.SelectedIndex > -1)
                 listBox1.Items.RemoveAt(listBox1.SelectedIndex);
