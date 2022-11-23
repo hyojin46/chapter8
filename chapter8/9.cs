@@ -14,7 +14,7 @@ namespace chapter8
     {
         public _9() //생성자
         {
-            InitializeComponent();
+            InitializeComponent(); //초기화
         }
 
         private void button1_Click(object sender, EventArgs e) //선택 버튼 이벤트 처리기
