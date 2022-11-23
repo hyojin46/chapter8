@@ -15,7 +15,7 @@ namespace chapter8
     {
         public _3() //생성자
         {
-            InitializeComponent();
+            InitializeComponent(); //초기화
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
