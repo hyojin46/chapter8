@@ -13,7 +13,7 @@ namespace chapter8
 {
     public partial class _3 : Form
     {
-        public _3()
+        public _3() //생성자
         {
             InitializeComponent();
         }
