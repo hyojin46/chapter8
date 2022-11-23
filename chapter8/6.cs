@@ -17,9 +17,9 @@ namespace chapter8
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) //OK버튼 이벤트 처리기
         {
-
+            textBox3.Text = “Name: “ +textBox1.Text + “\r\nPassword: “ +textBox2.Text;
         }
     }
 }
