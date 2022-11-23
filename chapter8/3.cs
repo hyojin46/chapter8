@@ -24,7 +24,7 @@ namespace chapter8
         }
         private void radioButton2_CheckedChanged(object sender, EventArgs e) //라디오 버튼 이벤트 처리기
         {
-            label1.Text = radioButton2.Text;
+            label1.Text = radioButton2.Text; //라디오 버튼의 이름을 라벨에 출력
         }
         private void radioButton3_CheckedChanged(object sender, EventArgs e) //라디오 버튼 이벤트 처리기
         {
