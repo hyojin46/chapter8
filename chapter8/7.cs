@@ -28,7 +28,7 @@ namespace chapter8
 
         private void button2_Click(object sender, EventArgs e) //삭제버튼 이벤트 처리기
         {
-            if (listBox1.SelectedIndex > -1)  //선택상태가 0 이상인 경우
+            if (listBox1.SelectedIndex > -1)  //선택상태가 0 이상인 경우 -> 리스트 아이템을 선택한 경우
                 listBox1.Items.RemoveAt(listBox1.SelectedIndex);
         }
     }
