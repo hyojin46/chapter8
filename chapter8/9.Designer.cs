@@ -45,14 +45,26 @@
             // checkedListBox1
             // 
             this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(12, 44);
+            this.checkedListBox1.Items.AddRange(new object[] {
+            "영화감상",
+            "음악감상",
+            "축구",
+            "농구",
+            "골프",
+            "스키",
+            "스노우보드",
+            "수영",
+            "장기",
+            "바둑"});
+            this.checkedListBox1.Location = new System.Drawing.Point(12, 51);
+            this.checkedListBox1.MultiColumn = true;
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(260, 116);
+            this.checkedListBox1.Size = new System.Drawing.Size(260, 84);
             this.checkedListBox1.TabIndex = 1;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(98, 190);
+            this.button1.Location = new System.Drawing.Point(97, 157);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
@@ -63,7 +75,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 220);
+            this.ClientSize = new System.Drawing.Size(284, 187);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.label1);
