@@ -20,7 +20,7 @@ namespace chapter8
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) //링크 레이블 체크 이벤트
         {
-            Process.Start(linkLabel1.Text);
+            Process.Start(linkLabel1.Text); //Process클래스의 정적메소드 Start()메소드를 사용
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) //링크 레이블 체크 이벤트
