@@ -28,11 +28,11 @@ namespace chapter8
         }
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
-            abel1.Text = radioButton3.Text;
+            label1.Text = radioButton3.Text;
         }
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
-
+            label1.Text = radioButton4.Text
         }
     }
 }
