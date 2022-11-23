@@ -21,8 +21,8 @@ namespace chapter8
         {
             if (textBox1.Text != "") //텍스트박스가 빈경우
             {
-                listBox1.Items.Add(textBox1.Text); 
-                textBox1.Text = ""; 
+                listBox1.Items.Add(textBox1.Text); //리스트박스 아이템컬랙션에 텍스트박스의 내용을 넣는다
+                textBox1.Text = ""; //텍스트박스 초기화
             }
         }
 
