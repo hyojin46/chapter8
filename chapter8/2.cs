@@ -19,7 +19,7 @@ namespace chapter8
         private string strTemp; // 필드
         private void UpdateLabel(string s, bool b)
         {
-            if (b)
+            if (b) // 체크된 경우
             {
                 label1.Text += s;
             }
