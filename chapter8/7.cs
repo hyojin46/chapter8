@@ -12,7 +12,7 @@ namespace chapter8
 {
     public partial class _7 : Form
     {
-        public _7()
+        public _7() //생성자
         {
             InitializeComponent();
         }
@@ -28,7 +28,7 @@ namespace chapter8
 
         private void button2_Click(object sender, EventArgs e) //삭제버튼 이벤트 처리기
         {
-            if (listBox1.SelectedIndex > -1)
+            if (listBox1.SelectedIndex > -1) 
                 listBox1.Items.RemoveAt(listBox1.SelectedIndex);
         }
     }
