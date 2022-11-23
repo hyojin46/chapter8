@@ -17,9 +17,15 @@ namespace chapter8
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) //선택 버튼 이벤트 처리기
         {
-
+            string strTemp = "";
+            foreach (object obj in checkedListBox1.CheckedItems)
+            {
+                strTemp += obj.ToString();
+                strTemp += ": ";      
+            }
+            MessageBox.Show("당신의 취미는" + strTemp + "입니다.");
         }
     }
 }
