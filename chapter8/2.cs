@@ -23,7 +23,7 @@ namespace chapter8
             {
                 label1.Text += s;
             }
-            else
+            else // 체크되지않은 경우
             {
                 strTemp = label1.Text;
                 int i = strTemp.IndexOf(s);
