@@ -45,7 +45,7 @@ namespace chapter8
             UpdateLabel(checkBox3.Text, checkBox3.Checked);
         }
 
-        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        private void checkBox3_CheckedChanged(object sender, EventArgs e) // 체크박스 이벤트 처리기
         {
             UpdateLabel(checkBox4.Text, checkBox4.Checked);
         }
