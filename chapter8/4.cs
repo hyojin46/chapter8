@@ -30,7 +30,7 @@ namespace chapter8
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) //링크 레이블 체크 이벤트
         {
-            Process.Start("Notepad.exe", linkLabel3.Text);
+            Process.Start("Notepad.exe", linkLabel3.Text); //Process클래스의 정적메소드 Start()메소드를 사용
         }
     }
 }
