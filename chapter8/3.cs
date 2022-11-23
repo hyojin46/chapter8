@@ -16,5 +16,22 @@ namespace chapter8
         {
             InitializeComponent();
         }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            label1.Text = radioButton1.Text;
+        }
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
