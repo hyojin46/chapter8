@@ -47,7 +47,7 @@ namespace chapter8
 
         private void checkBox3_CheckedChanged(object sender, EventArgs e) // 체크박스 이벤트 처리기
         {
-            UpdateLabel(checkBox4.Text, checkBox4.Checked);
+            UpdateLabel(checkBox4.Text, checkBox4.Checked);  //사용자 정의함수 호출
         }
     }
 }
