@@ -28,7 +28,7 @@ namespace chapter8
             Process.Start(linkLabel2.Text);
         }
 
-        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) //링크 레이블 체크 이벤트
         {
             Process.Start("Notepad.exe", linkLabel3.Text);
         }
