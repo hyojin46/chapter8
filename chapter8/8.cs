@@ -21,8 +21,8 @@ namespace chapter8
         {
             if (listBox1.SelectedItem != null) //리스트박스에서 선택한 경우
             {
-                comboBox1.Items.Add(listBox1.SelectedItem);
-                listBox1.Items.Remove(listBox1.SelectedItem);
+                comboBox1.Items.Add(listBox1.SelectedItem); // 콤보박스에 채움
+                listBox1.Items.Remove(listBox1.SelectedItem); // 리스트박스에서 내용을 제거
             }
         }
 
