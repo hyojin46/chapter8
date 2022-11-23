@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -27,7 +28,7 @@ namespace chapter8
         }
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
-
+            abel1.Text = radioButton3.Text;
         }
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
