@@ -28,7 +28,10 @@ namespace chapter8
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            if (comboBox1.SelectedItem != null)
+            {
+                listBox1.Items.Add(comboBox1.SelectedItem);
+                comboBox1.Items.Remove(comboBox1.SelectedItem); }
         }
     }
 }
