@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Diagnostics; 
+using System.Diagnostics; //Process클래스의 네임스페이스
 
 namespace chapter8
 {
