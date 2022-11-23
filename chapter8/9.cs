@@ -22,7 +22,7 @@ namespace chapter8
             string strTemp = ""; // 메시지박스에 출력할 문자열
             foreach (object obj in checkedListBox1.CheckedItems) //반복문
             {
-                strTemp += obj.ToString();
+                strTemp += obj.ToString(); // 메시지박스에 출력할 문자열에 체크된 체크리스트의 이름을 문자열형으로 변환하여 저장
                 strTemp += ": ";      
             }
             MessageBox.Show("당신의 취미는" + strTemp + "입니다.");
