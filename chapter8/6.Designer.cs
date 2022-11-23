@@ -50,20 +50,20 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(22, 98);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 12);
+            this.label2.Size = new System.Drawing.Size(123, 12);
             this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.label2.Text = "Enter your password";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(137, 36);
+            this.textBox1.Location = new System.Drawing.Point(170, 36);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 21);
             this.textBox1.TabIndex = 2;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(137, 89);
+            this.textBox2.Location = new System.Drawing.Point(170, 89);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 21);
             this.textBox2.TabIndex = 3;
