@@ -23,7 +23,7 @@ namespace chapter8
             Process.Start(linkLabel1.Text);
         }
 
-        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) //링크 레이블 체크 이벤트
         {
             Process.Start(linkLabel2.Text);
         }
