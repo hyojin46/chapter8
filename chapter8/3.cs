@@ -22,7 +22,7 @@ namespace chapter8
         {
             label1.Text = radioButton1.Text;
         }
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        private void radioButton2_CheckedChanged(object sender, EventArgs e) //라디오 버튼 이벤트 처리기
         {
             label1.Text = radioButton2.Text;
         }
