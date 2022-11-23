@@ -19,9 +19,9 @@ namespace chapter8
 
         private void button1_Click(object sender, EventArgs e) //추가버튼 이벤트 처리기
         {
-            if (textBox1.Text != "") 
+            if (textBox1.Text != "") //텍스트박스가 빈경우
             {
-                listBox1.Items.Add(textBox1.Text);
+                listBox1.Items.Add(textBox1.Text); 
                 textBox1.Text = ""; 
             }
         }
