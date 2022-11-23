@@ -18,7 +18,7 @@ namespace chapter8
             InitializeComponent(); //초기화
         }
 
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        private void radioButton1_CheckedChanged(object sender, EventArgs e) //라디오 버튼 이벤트 처리기
         {
             label1.Text = radioButton1.Text;
         }
