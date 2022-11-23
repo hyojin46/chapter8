@@ -70,9 +70,10 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(24, 163);
+            this.textBox3.Location = new System.Drawing.Point(24, 137);
+            this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 21);
+            this.textBox3.Size = new System.Drawing.Size(246, 97);
             this.textBox3.TabIndex = 4;
             // 
             // button1
